@@ -70,7 +70,7 @@
     top: 5px;
     opacity: .5;
 }
-.nav{
+.nav, .bottom-nav{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10pt;
 }
@@ -92,4 +92,35 @@ a{
 }
 #sign-in:hover{
     box-shadow: 0px .5px 1px lightgray;
+}
+.bottom-nav div{
+    display: inline;
+    position: absolute;
+    bottom: 12px;
+}
+.bottom-nav-right{
+    right: 20px;
+}
+.bottom-nav a{
+    margin: 12px;
+}
+.bottom-nav{
+    position: absolute;
+    display: block;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    height: 40px;
+    background-color: rgb(241, 241, 241);
+}
+#advertising{
+    margin-left: 30px;
+}
+.top-line{
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(226, 226, 226);
 }
